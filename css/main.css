@@ -1059,10 +1059,11 @@ body {
 .site-author-image {
   display: block;
   margin: 0 auto;
-  max-width: 96px;
-  height: auto;
   border: 2px solid #333;
   padding: 2px;
+  width: 100px;
+  height: 100px;
+  border-radius: 55px;
 }
 .site-author-name {
   margin: 5px 0 0;
@@ -1137,7 +1138,7 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d9ff52;
+  background: #1dff13;
 }
 .sidebar-nav {
   margin: 0;
