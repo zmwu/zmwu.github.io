@@ -20,19 +20,9 @@
 
 
 
+	<meta name="keywords" content="教程," />
 
-    <meta name="keywords" content="Hexo,next" />
-
-
-
-
-
-    <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.0" />
-
-
-
-
-  <title> 图片测试 // W'Notes </title>
+  <title> 建站始末 // W'Notes </title>
 </head>
 
 <body>
@@ -113,7 +103,7 @@
           
           
             
-              图片测试
+              建站始末
             
           
         </h1>
@@ -122,11 +112,22 @@
       <div class="post-meta">
         <span class="post-time">
           
-            发表于 2015-03-26
+            发表于 2015-03-27
           
         </span>
 
         
+          
+            <span class="post-category">
+              &nbsp; | &nbsp; 分类于
+              
+                <a href="/categories/技术/">技术</a>
+
+                
+                
+
+              
+            </span>
           
         
 
@@ -134,8 +135,8 @@
           
             <span class="post-comments-count">
             &nbsp; | &nbsp;
-            <a href="/2015/03/26/pic/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/03/26/pic/"></span>
+            <a href="/2015/03/27/建站始末/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/03/27/建站始末/"></span>
             </a>
           </span>
           
@@ -150,14 +151,34 @@
         
 
         
-          <p><img src="/uploads/1.jpg" alt="pic1"></p>
-<p>转眼又是一周过去，突然意识到的那种感慨只能一人消费，无法引起他人的共鸣。这周如同进去一个迷雾重重的森林，看不清前方的路，焦躁与恐惧轮流占领思想的高地，在迷茫中慌乱瞎转。</p>
-<p>在一阵乱转之余，回头再看也不尽没有收获。</p>
-<p>第一应该提到当是再听Muse，多年前最喜欢的一个乐队。Panic Station开场那旋律让我如同感觉是见到了许久未见的熟人，回到了久违的温暖之地。第一次听Muse的歌，还是在大学里的某一日下午，被一阵神秘的旋律所打动，我想Muse吸引我的绝大多数是因为歌曲中那些神秘的前奏。</p>
-<p>第二，本周花费时间最多的网站，当属GitHub。无论上班或者下班，都会接触到GitHub。目前估计在我的网站访问量里，GitHub会超越Google成为top 1。</p>
-<p>第三，个人主页进入下个一版本。上一个版本基于AngularJS开发，使用Yeoman构建，然后通过git subtree发布。整个堆栈看似十分壮观，但用到主页上庞大的有点吓人。按照本周同事的段子来讲就是，十分具备将一切简单事物复杂化的能力。所以在经过了三天的酝酿以后，终于在晚上找了空闲重新改版了一下。一个页面，抛弃掉原先的工具之后，感觉非常清爽。目标是在简单中体现出精细的细节，如同制作一件艺术品，久浸岁月与汗水之后沉淀而来。</p>
-<p>第四，正在制作一个秘密的项目，期望进展顺利。<br><img src="/uploads/2.jpg" alt="pic1"></p>
-<p>最后，小希正以日新月异的速度成长，昨晚听到电视里播放小苹果，竟然会跟着节奏晃动身体，边晃边笑。再试了下Panic Station，也会跟着晃，太逗了。现在还在吚吚哑哑，哪天就会开口要求买零食吃了，因为她是见吃必定会去抢的吃货潜力股。</p>
+          <h2 id="为何建立独立博客">为何建立独立博客</h2><p>其实如果有倾述欲望的话，在一般的博客网站写就行了，为什么要自己建一个独立博客呢？看到有人总结了几点，觉得非常好。</p>
+<ul>
+<li>独立博客是自己完全能控制的一个空间，外形内核我都能任意修改</li>
+<li>发表文章无需审核</li>
+<li>有一个鞭策作用，因为总想着把自己的一方小天地经营好,所以不会只有三分钟热度</li>
+</ul>
+<a id="more"></a>
+<h2 id="艰苦的过程">艰苦的过程</h2><p>选择Hexo是因为它非常简洁美观，而且从来没接触过，具有挑战性。因为是第一次，所以困难重重。大概你要打通这些关卡：</p>
+<p><code>Git --&gt; Node.js --&gt; Hexo --&gt; Github/GitCafe --&gt; DNSPod --&gt; 多说评论条 --&gt; 7牛图床</code></p>
+<p>虽然网络上教程多多，但实际操作还是问题不少，本人就遇到这么几个大坑：</p>
+<ul>
+<li>hexo工具安装不了，找了很久原因才发现是“墙”的原因，切换“源”解决的；</li>
+<li>_config.yml文件中的每个属性值前面必须留一个空格；</li>
+<li>node.js安装后无法使用npm指令，这个安装包为你填写的环境变量位置不对，需要自己配置环境变量；</li>
+<li>………</li>
+</ul>
+<h2 id="参考过的教程">参考过的教程</h2><p>资料看似很多却也不多，大部分都是重复转载的，下面是些我实际遇到困难的相关解决文章：</p>
+<ul>
+<li><a href="http://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="external">史上最详细的Hexo博客搭建图文教程</a></li>
+<li><a href="http://segmentfault.com/a/1190000000473869" target="_blank" rel="external">切换国内源安装Hexo</a></li>
+<li><a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">关于NexT主题的一切配置问题</a></li>
+<li><a href="http://www.cnblogs.com/zhcncn/p/4097881.html" target="_blank" rel="external">本地调试和部署到Github上</a></li>
+<li><a href="http://zipperary.com/2013/05/28/hexo-guide-2/" target="_blank" rel="external">Github上创建repository时的命名问题</a></li>
+<li><a href="http://ruikye.com/2014/08/31/github_domain/" target="_blank" rel="external">DNSpod域名解析</a></li>
+<li><a href="http://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">Hexo常见问题解决方案</a></li>
+<li><a href="http://www.lukang.me/2014/hexo-qiniu.html" target="_blank" rel="external">七牛图床的使用</a></li>
+<li><a href="http://lukang.me/2014/hexo-page-speed.html" target="_blank" rel="external">Hexo 静态博客加速</a></li>
+</ul>
 
         
       </div>
@@ -165,6 +186,14 @@
 
     
       <div class="post-footer">
+        
+          <div class="post-tags">
+            
+              <a href="/tags/教程/">
+                #教程
+              </a>
+            
+          </div>
         
 
         
@@ -192,8 +221,8 @@
   
     <div class="comments" id="comments">
       
-        <div class="ds-thread" data-thread-key="2015/03/26/pic/"
-             data-title="图片测试" data-url="http://wnotes.xyz/2015/03/26/pic/">
+        <div class="ds-thread" data-thread-key="2015/03/27/建站始末/"
+             data-title="建站始末" data-url="http://wnotes.xyz/2015/03/27/建站始末/">
         </div>
 
       
@@ -240,7 +269,7 @@
           <span class="site-state-item-name">日志</span>
         </div>
         <div class="site-state-item site-state-tags">
-            <span class="site-state-item-count">0</span>
+            <span class="site-state-item-count">1</span>
             <span class="site-state-item-name">标签</span>
         </div>
         <div class="site-state-item site-state-pages">
@@ -259,7 +288,7 @@
             </span>
           
             <span class="links-of-author-item">
-              <a href="1426208126@qq.com">email</a>
+              <a href="http://1426208126@qq.com">email</a>
             </span>
           
         
@@ -276,7 +305,7 @@
         <div class="post-toc">
           
           
-            <p class="post-toc-empty">此文章未包含目录</p>
+            <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#为何建立独立博客"><span class="nav-number">1.</span> <span class="nav-text">为何建立独立博客</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#艰苦的过程"><span class="nav-number">2.</span> <span class="nav-text">艰苦的过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考过的教程"><span class="nav-number">3.</span> <span class="nav-text">参考过的教程</span></a></li></ol></div>
           
         </div>
         <div class="post-toc-indicator-bottom post-toc-indicator"></div>
